@@ -49,7 +49,7 @@ GameManager.prototype.setup = function () {
     this.keepPlaying = previousState.keepPlaying;
   } else {
     this.grid        = new Grid(this.size);
-    this.score       = 2;
+    this.score       = 3;
     this.over        = false;
     this.won         = false;
     this.keepPlaying = false;
@@ -171,7 +171,7 @@ GameManager.prototype.move = function (direction) {
           tile.updatePosition(positions.next);
 
           // Update the score
-          self.score += merged.value;
+          self.score += merged.value/3;
 
           // The mighty 2048 tile
           if (merged.value === 59049 ) self.won = true;

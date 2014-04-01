@@ -16,7 +16,7 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -552,7 +552,9 @@ hr {
   float: right; }
 
 .game-explanation {
-  margin-top: 50px; }
+  margin-top: 50px;
+    margin-bottom:30px;
+}
 
 @media screen and (max-width: 520px) {
   html, body {
@@ -561,9 +563,9 @@ hr {
   body {
     margin: 20px 0;
     padding: 0 20px; }
-
-  h1.title {
-    font-size: 27px;
+    
+.title {
+    font-size: 10px;
     margin-top: 15px; }
     
 .paddingspace{
