@@ -92,11 +92,16 @@ h1.title {
 .score-container:after {
   content: "Score"; }
 
-.log{
-    color: #0d94b4;
+.titlee{
+    color: #ffffff;
     font-size: 15px;
     text-align: center;
+    background-color: #0d94b4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 }
+
 
 .best-container:after {
   content: "Best"; }
@@ -116,10 +121,11 @@ strong.important {
   text-transform: uppercase; }
 
 hr {
-  border: none;
-  border-bottom: 1px solid #d8d4d0;
-  margin-top: 20px;
-  margin-bottom: 30px; }
+    border:none;
+    border-bottom: 1px;
+    margin-top: 50px;
+    margin-bottom: 7px;}
+
 
 .container {
   width: 500px;
@@ -559,10 +565,16 @@ hr {
   h1.title {
     font-size: 27px;
     margin-top: 15px; }
+    
+.paddingspace{
+    padding: 10px;   
+}
 
   .container {
     width: 280px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 50px;
+  }
 
   .score-container, .best-container {
     margin-top: 0;
