@@ -5,7 +5,7 @@
 
 <circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="#34f19a"/>
 <rect x="500" y="420" width="310" height="232" stroke="blue" stroke-width="5" />
-<ellipse cx="200" cy="400" rx="150" ry="82" stroke="red" stroke-width="3" fill="white" />
+<ellipse cx="200" cy="400" rx="150" ry="82" stroke="#4fa26e" stroke-width="3" fill="white" />
 <polyline points="50, 60 70, 20 100, 140" fill="none" stroke="blue"/>
 <text x="200" y="400" stroke="none" fill="black" font-size="23pt" font-family="Arial">Hello!</text>
 <polygon points="340, 500 310, 550 280, 400" />
